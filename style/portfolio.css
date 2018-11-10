@@ -1,5 +1,68 @@
 
+/* pages backgrounds */
 
+.mainPage {
+    width:100%;
+    height:auto;
+    margin: 2%;
+    margin-bottom:15%;
+    padding: 2%;
+    background-image: url("../portfoliopictures/darkSunset.jpg");
+    background-color: #cccccc;
+    background-repeat:no-repeat;
+
+}
+.portfolioPage {
+    width:100%;
+    height:auto;
+    margin: 2%;
+    margin-bottom:15%;
+    padding: 2%;
+    background-image: url("../portfoliopictures/darkSunset.jpg");
+    background-color: #cccccc;
+    background-repeat:no-repeat;
+}
+.exhibitsPage {
+    width:100%;
+    height:auto;
+    margin: 2%;
+    margin-bottom:15%;
+    padding: 2%;
+    background-image: url("../portfoliopictures/darkSunset.jpg");
+    background-color: #cccccc;
+    background-repeat:no-repeat;
+}
+.contactPage {
+    width:100%;
+    height:auto;
+    margin: 2%;
+    margin-bottom:15%;
+    padding: 2%;
+    background-image: url("../portfoliopictures/darkSunset.jpg");
+    background-color: #cccccc;
+    background-repeat:no-repeat;
+}
+.bioPage {
+    width:100%;
+    height:auto;
+    margin: 2%;
+    margin-bottom:15%;
+    padding: 2%;
+    /* background-image: url("../portfoliopictures/yellowFlowers.jpg"); */
+    background-image: url("../portfoliopictures/sunset.jpg");
+
+    background-color: #ffffff;
+    background-repeat:no-repeat;
+}
+
+/* header */
+.topBar {
+    margin-right: 30px;
+    margin-left: 0px;
+}
+
+
+/* footer */
 .btmPage {
     position:fixed;
     left:0;
@@ -10,6 +73,19 @@
     text-align:center;
 
 }
+#copyright {
+    /* margin-left: 4%; */
+    position: absolute;
+    right: 15px;
+
+}
+
+/* exhibits page */
+
+
+
+
+/* work page */
 
 .thumbs {
     margin: 3 px;
@@ -22,5 +98,80 @@
 
 .thumbs:hover {
     border: 2px black solid; 
+
+}
+
+
+
+/* bio Page */
+.profPic {
+    /* change size */
+    width: 90%;
+    height: auto;
+}
+
+
+.bioBox {
+    width:92%;
+    height: auto;
+    margin: 2%;
+    padding:2%;
+    border:2px solid blue;
+
+}
+#breanne {
+    width: 60%;
+    height: auto;
+}
+
+#myPicture {
+    height: 300px;
+    width: auto;
+    position: relative;
+    float: left;
+    /* left: 8%; */
+    border-radius: 31pt;
+    padding:2%;
+    margin: 2%;
+}
+
+#myPicture2 {
+    height: 300px;
+    width: auto;
+    /* position: relative; */
+    float: right;
+    /* left: 8%; */
+    border-radius: 24pt;
+    padding:2%;
+    margin: 2%;
+    margin-right:-2%;
+    margin-top:-4%;
+}
+.profileBackground {
+    /* background-image: url("../portfoliopictures/yellowFlowers.jpg"); */
+    /* background-color:black;
+    background-repeat:no-repeat; */
+    width: auto;
+    height: 800px;
+}
+#bioWriteup {
+    /* color:aliceblue; */
+    color:white;
+    text-shadow: 1px 1px gray;
+    font-size:14pt;
+}
+/* main page - index */
+
+#name {
+    color: aliceblue;
+    text-align:center;
+    font-size: 51pt;
+    text-shadow: 4px 3px black;
+}
+.mainPageBox {
+    width:92%;
+    margin: 2%;
+    padding:2%;
+    border:2px solid blue;
 
 }
